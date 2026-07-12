@@ -1,0 +1,9 @@
+Entidad: Causa
+- Campos: id, titulo, descripcion, fecha
+- Función: almacenar la información de cada causa propuesta por la comunidad.
+
+Entidad: Apoyo
+- Campos: id, causa_id, nombre, fecha
+- Función: registrar cada apoyo que una persona brinda a una causa específica.
+
+Relación: un apoyo pertenece a una causa mediante causa_id, lo que permite contar y organizar los apoyos por tema.
